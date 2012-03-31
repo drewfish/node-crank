@@ -11,6 +11,14 @@
         "type": "git",
         "url": "git://github.com/drewfish/node-crank.git"
     },
+    "bugs": {
+        "url": "http://github.com/drewfish/node-crank/issues"
+    },
+    "licenses":
+    {
+        "type": "MIT",
+        "url": "https://github.com/drewfish/node-crank/blob/master/Readme.md#license"
+    },
     "preferGlobal": true,
     "engines": {
         "node": ">= 0.4.0"
