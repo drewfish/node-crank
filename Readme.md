@@ -1,8 +1,11 @@
-CRANK
-    a tool to update version number and changelog, for npm module development
+
+# CRANK
+
+a tool to update version number and changelog, for npm module development
 
 
-USAGE
+# usage
+
     crank version {part}
         increments version in package.json
         {part} is "major", "minor", or "patch".  defaults to "patch"
@@ -11,7 +14,8 @@ USAGE
         updates changelog
 
 
-INTENTIONS
+# intentions
+
     * used to manage a node module
         * assumes package.json
     * primarily to move forward into the future
@@ -24,13 +28,15 @@ INTENTIONS
     * can use a "config" or "recipe" file for advanced use cases
 
 
-ASSUMPTIONS
+# assumptions
+
     * change ID ("revision", "commit", etc) of target applies homogeneously to all files/subdirs in target
     * target is "clean" -- no modifications
     * generally expected to be run when in same directory as package.json
 
 
-CONFIG
+# config
+
     * not really needed for simple use cases
     * defaults to "crank.json" in the current working directory
     * can be specified with a commandline argument
@@ -75,7 +81,8 @@ CONFIG
                 * TODO:  need way to pull pairs out of vcs change log
 
 
-TEMPLATE
+# TEMPLATE
+
     * good old mustache
 
     * {{version}} string
@@ -88,7 +95,8 @@ TEMPLATE
         * {{message}} string
 
 
-TODO
+# TODO
+
     * how do we order log entries?
         * presumably just use the order returned by the vcs
             but is there more to it than that?
@@ -101,7 +109,7 @@ TODO
     * "crank release" does all that's needed (inc commits)
 
 
-LICENSE
+# license
 
     MIT License
 
