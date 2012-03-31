@@ -37,7 +37,7 @@ a tool to update version number and changelog, for npm module development
     </dd>
     <dt><b>read-only</b></dt>
     <dd>
-        Doesn't commit to the SCM.  (See "doesn't try to do everything" above.)
+        Doesn't commit to the SCM.  (See "not try to do everything" above.)
     </dd>
     <dt><b>config file (optional)</b></dt>
     <dd>
@@ -114,8 +114,8 @@ a tool to update version number and changelog, for npm module development
             * uses changelog file itself to find version:changeid pairs
             * TODO:  need way to pull pairs out of changelog (regex?)
         * `scm-changes`
-            * uses scm change log to find version:changeid pairs
-            * TODO:  need way to pull pairs out of scm change log
+            * uses SCM change log to find version:changeid pairs
+            * TODO:  need way to pull pairs out of SCM change log
 
 
 ## template
@@ -135,12 +135,12 @@ a tool to update version number and changelog, for npm module development
 ## TODO
 
 * how do we order log entries?
-    * presumably just use the order returned by the scm
+    * presumably just use the order returned by the SCM
         but is there more to it than that?
 * do we need to order versions?
 * ... or otherwise compare version numbers?
 * templates can have dates (of version or entry)
-    * ... gotten from scm?
+    * ... gotten from SCM?
 * log entry templates can have changeids
 * encorporate ideas from https://github.com/ccare/node-release-utils
 * "crank release" does all that's needed (inc commits)
