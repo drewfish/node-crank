@@ -132,20 +132,6 @@ a tool to update version number and changelog, for npm module development
     * `{{message}}` string
 
 
-## TODO
-
-* how do we order log entries?
-    * presumably just use the order returned by the SCM
-        but is there more to it than that?
-* do we need to order versions?
-* ... or otherwise compare version numbers?
-* templates can have dates (of version or entry)
-    * ... gotten from SCM?
-* log entry templates can have changeids
-* encorporate ideas from https://github.com/ccare/node-release-utils
-* "crank release" does all that's needed (inc commits)
-
-
 ## license
 
 MIT License
