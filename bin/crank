@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /*
  *  MIT License
  *
@@ -23,7 +24,21 @@
  */
 
 
-var crank = require('crank');
-
+function main() {
+    var crank, args, command;;
+    try {
+        crank = require('crank');
+        
+    }
+    catch (e) {
+        // during developement, or when a link package is used
+        crank = require(__dirname + '/../lib/crank');
+    }
+    args = process.argv.slice(2);
+    command = crank.parseArgs(args);
+    crank.run(command);
+}
+main();
+ 
 
 

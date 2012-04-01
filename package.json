@@ -1,11 +1,14 @@
 {
     "name": "crank",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "tool to update version number and changelog, for npm module development",
     "author": "Andrew Folta <drew@folta.net>",
     "homepage": "https://github.com/drewfish/node-crank",
     "keywords": [
-        "package", "version", "changelog", "build"
+        "package",
+        "version",
+        "changelog",
+        "build"
     ],
     "repository": {
         "type": "git",
@@ -14,8 +17,7 @@
     "bugs": {
         "url": "http://github.com/drewfish/node-crank/issues"
     },
-    "licenses":
-    {
+    "licenses": {
         "type": "MIT",
         "url": "https://github.com/drewfish/node-crank/blob/master/Readme.md#license"
     },
