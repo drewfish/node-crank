@@ -93,15 +93,15 @@ a tool to update version number and changelog, for npm module development
             * format to use for change dates
         * `filters`:  list of regexes to modify changes
             * `subject`: "message", "author", "date", "changeid"
-            * `regex`: string
+            * `regexp`: string
             * `replace`: "string"
                 * if results in "--CRANK:SKIP--" then change is skipped
     * `versions`:
         * `dateformat`: string
             * format to use for revision dates
         * `filters`:  list of regeses to modify versions
-            * `subject`: "version", "date"
-            * `regex`: string
+            * `subject`: "version", "date", "changes"
+            * `regexp`: string
             * `replace`: "string"
                 * if results in "--CRANK:SKIP--" then version is skipped
 * `database` -- TODO
@@ -112,7 +112,7 @@ a tool to update version number and changelog, for npm module development
             * separate json file
         * `changelog`
             * uses changelog file itself to find version:changeid pairs
-            * TODO:  need way to pull pairs out of changelog (regex?)
+            * TODO:  need way to pull pairs out of changelog (regexp?)
         * `scm-changes`
             * uses SCM change log to find version:changeid pairs
             * TODO:  need way to pull pairs out of SCM change log
@@ -123,8 +123,7 @@ a tool to update version number and changelog, for npm module development
 * good old mustache
 
 * `{{version}}` string
-* `{{date}}` string
-* `{{crankdate}}` string, date that crank was run
+* `{{date}}` string, date that crank was run
 * `{{changes}}` list of objects
     * `{{changeid}}` string
     * `{{date}}` string

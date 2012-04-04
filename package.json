@@ -27,6 +27,8 @@
     },
     "devDependencies": {},
     "dependencies": {
+        "async": ">= 0.1.18",
+        "mu": ">= 0.5.2",
         "semver": ">= 1.0.13"
     },
     "main": "lib/crank",
