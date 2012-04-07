@@ -1,4 +1,11 @@
 
+version 0.0.3 / Sat Apr 07 2012 11:43:54 GMT-0700 (PDT)
+=======================================================
+change de27b261ab7ae7d290ebf69f57a11937b264b969
+
+* first real working version of changelog
+
+
 version 0.0.2 / Sat Apr 07 2012 11:29:25 GMT-0700 (PDT)
 =======================================================
 change 2da5393ad6c80ad69ff7bfdd30fe5dc1b8fe9f66
