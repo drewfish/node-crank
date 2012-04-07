@@ -124,6 +124,7 @@ a tool to update version number and changelog, for npm module development
 
 * `{{version}}` string
 * `{{date}}` string, date that crank was run
+* `{{changeid}}` string
 * `{{changes}}` list of objects
     * `{{changeid}}` string
     * `{{date}}` string
