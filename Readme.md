@@ -104,18 +104,6 @@ a tool to update version number and changelog, for npm module development
             * `regexp`: string
             * `replace`: "string"
                 * if results in "--CRANK:SKIP--" then version is skipped
-* `database` -- TODO
-    * maps version:changeid
-    * only really needed by `crank changelog`
-    * types
-        * `file {foo.json}`
-            * separate json file
-        * `changelog`
-            * uses changelog file itself to find version:changeid pairs
-            * TODO:  need way to pull pairs out of changelog (regexp?)
-        * `scm-changes`
-            * uses SCM change log to find version:changeid pairs
-            * TODO:  need way to pull pairs out of SCM change log
 
 
 ## template
