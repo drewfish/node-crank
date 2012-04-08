@@ -100,7 +100,7 @@ a tool to update version number and changelog, for npm module development
         * `dateformat`: string
             * format to use for revision dates
         * `filters`:  list of regeses to modify versions
-            * `subject`: "version", "date", "changes"
+            * `subject`: "version", "date", "changeid", "changes"
             * `regexp`: string
             * `replace`: "string"
                 * if results in "--CRANK:SKIP--" then version is skipped
