@@ -7,11 +7,13 @@ a tool to update version number and changelog, for npm module development
 ## usage
 
     crank version {part}
-        increments version in package.json
-        {part} is `major`, `minor`, or `patch`.  defaults to `patch`
 
-    crank changelog Changelog.md
-        updates changelog
+increments version in package.json
+{part} is `major`, `minor`, or `patch`.  defaults to `patch`
+
+    crank changelog {file}
+
+updates changelog.  {file} defaults to `Changelog.md`
 
 
 ## intentions
@@ -95,7 +97,7 @@ a tool to update version number and changelog, for npm module development
             * `subject`: "message", "author", "date", "changeid"
             * `regexp`: string
             * `replace`: "string"
-                * if results in "--CRANK:SKIP--" then change is skipped
+                * if results in `--CRANK:SKIP--` then change is skipped
     * `versions`:
         * `dateformat`: string
             * format to use for revision dates
@@ -103,7 +105,7 @@ a tool to update version number and changelog, for npm module development
             * `subject`: "version", "date", "changeid", "changes"
             * `regexp`: string
             * `replace`: "string"
-                * if results in "--CRANK:SKIP--" then version is skipped
+                * if results in `--CRANK:SKIP--` then version is skipped
 
 
 ## template
