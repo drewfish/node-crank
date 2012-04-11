@@ -93,7 +93,7 @@ updates changelog.  {file} defaults to `Changelog.md`
     * `changes`:
         * `dateformat`: string
             * format to use for change dates
-        * `filters`:  list of regexes to modify changes
+        * `filters`:  list of objects describing how to modify changes
             * `subject`: "message", "author", "date", "changeid"
             * `regexp`: string
             * `replace`: "string"
@@ -101,7 +101,7 @@ updates changelog.  {file} defaults to `Changelog.md`
     * `versions`:
         * `dateformat`: string
             * format to use for revision dates
-        * `filters`:  list of regeses to modify versions
+        * `filters`:  list of objects describing how to modify versions
             * `subject`: "version", "date", "changeid", "changes"
             * `regexp`: string
             * `replace`: "string"
