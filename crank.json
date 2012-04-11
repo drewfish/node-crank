@@ -1,0 +1,22 @@
+{
+    "//": "just an example of some things that are possible",
+
+    "changelog": {
+        "changes": {
+            "filters": [
+                {
+                    "//": "skip changes that just update the changelog",
+                    "subject":  "message",
+                    "regexp":   "^updated changelog$",
+                    "replace":  "--CRANK:SKIP--"
+                },
+                {
+                    "//": "skip changes that just update the version",
+                    "subject":  "message",
+                    "regexp":   "^updated version$",
+                    "replace":  "--CRANK:SKIP--"
+                }
+            ]
+        }
+    }
+}

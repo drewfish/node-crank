@@ -102,7 +102,7 @@ updates changelog.  {file} defaults to `Changelog.md`
         * `dateformat`: string
             * format to use for revision dates
         * `filters`:  list of objects describing how to modify versions
-            * `subject`: "version", "date", "changeid", "changes"
+            * `subject`: "version", "date", "changeid"
             * `regexp`: string
             * `replace`: "string"
                 * if results in `--CRANK:SKIP--` then version is skipped
