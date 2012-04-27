@@ -126,7 +126,7 @@ updates changelog.  {file} defaults to `Changelog.md`
 
 MIT License
 
-Copyright (C) 2012 Andrew Folta <drew@folta.net>
+Copyright (c) 2012, Yahoo! Inc.  All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),
