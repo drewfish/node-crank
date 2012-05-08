@@ -1,4 +1,15 @@
 
+version 0.0.5 / Tue May 08 2012 15:30:10
+=======================================================
+change 7dd083c37f94c6fe72ccf3862f4d0377791d0f41
+
+* formatting cleanups
+* first version of svn support
+* report errors
+* written json files are newline-terminated (just to make them nicer for humans)
+* turns out that Yahoo owns this code, since I'm currently working there
+
+
 version 0.0.4 / Tue Apr 10 2012 20:54:13
 =======================================================
 change 0c1a4638e711f54d28d08d242d453e263ec84b94
