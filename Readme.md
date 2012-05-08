@@ -88,23 +88,23 @@ updates changelog.  {file} defaults to `Changelog.md`
     * `template`: template type, or path on disk
         * defaults to file extension
         * simple string taken as one of the built-in template types to use
-            * builtin types are "md" (markdown) and "txt" (plain text)
+            * builtin types are `md` (markdown) and `txt` (plain text)
         * otherwise, template to use
     * `changes`:
         * `dateformat`: string
             * format to use for change dates
         * `filters`:  list of objects describing how to modify changes
-            * `subject`: "message", "author", "date", "changeid"
+            * `subject`: string `message`, `author`, `date`, or `changeid`
             * `regexp`: string
-            * `replace`: "string"
+            * `replace`: string
                 * if results in `--CRANK:SKIP--` then change is skipped
     * `versions`:
         * `dateformat`: string
             * format to use for revision dates
         * `filters`:  list of objects describing how to modify versions
-            * `subject`: "version", "date", "changeid"
+            * `subject`: string `version`, `date`, or `changeid`
             * `regexp`: string
-            * `replace`: "string"
+            * `replace`: string
                 * if results in `--CRANK:SKIP--` then version is skipped
 
 
