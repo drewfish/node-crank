@@ -1,4 +1,11 @@
 
+version 0.0.6 / Tue May 08 2012 15:37:07
+=======================================================
+change 6895dba778365c1f0d8346d8407ae46924616c27
+
+* updated URLs to point to source-of-truth repository
+
+
 version 0.0.5 / Tue May 08 2012 15:30:10
 =======================================================
 change 7dd083c37f94c6fe72ccf3862f4d0377791d0f41
