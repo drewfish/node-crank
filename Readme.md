@@ -98,16 +98,16 @@ updates changelog.  {file} defaults to `Changelog.md`
             * `regexp`: string
             * `replace`: string
                 * if results in `--CRANK:SKIP--` then change is skipped
-    * `versions`:
+    * `releases`:
         * `dateformat`: string
             * format to use for revision dates
-        * `filters`:  list of objects describing how to modify versions
+        * `filters`:  list of objects describing how to modify releases
             * `subject`: string `version`, `date`, or `changeid`
             * `regexp`: string
             * `replace`: string
-                * if results in `--CRANK:SKIP--` then version is skipped
+                * if results in `--CRANK:SKIP--` then release is skipped
         * `skipEmpty`: boolean
-            * if true and version has no changes (after filtering), then the version is skipped
+            * if true and release has no changes (after filtering), then the release is skipped
 
 
 ## template
