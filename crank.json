@@ -15,6 +15,12 @@
                     "subject":  "message",
                     "regexp":   "^updated version$",
                     "replace":  "--CRANK:SKIP--"
+                },
+                {
+                    "//": "skip changes that just update the version and changelog",
+                    "subject":  "message",
+                    "regexp":   "^updated version and changelog$",
+                    "replace":  "--CRANK:SKIP--"
                 }
             ]
         },
