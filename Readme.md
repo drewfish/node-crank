@@ -106,6 +106,8 @@ updates changelog.  {file} defaults to `Changelog.md`
             * `regexp`: string
             * `replace`: string
                 * if results in `--CRANK:SKIP--` then version is skipped
+        * `skipEmpty`: boolean
+            * if true and version has no changes (after filtering), then the version is skipped
 
 
 ## template

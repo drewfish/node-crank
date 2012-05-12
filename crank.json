@@ -17,6 +17,9 @@
                     "replace":  "--CRANK:SKIP--"
                 }
             ]
+        },
+        "releases": {
+            "skipEmpty": true
         }
     }
 }
