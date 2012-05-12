@@ -1,4 +1,13 @@
 
+version 0.0.7 / Sat May 12 2012 07:45:59
+=======================================================
+change 9b325e55fe50bd89d1c077f7cf244d65009d1764
+
+* (self-management) also skip a single commit that upgrades both the version and changelog
+* config section was mistakenly refering to a release as a version
+* added config changelog.releases.skipEmpty
+
+
 version 0.0.6 / Tue May 08 2012 15:37:07
 =======================================================
 change 6895dba778365c1f0d8346d8407ae46924616c27

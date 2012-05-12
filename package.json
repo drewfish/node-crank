@@ -1,6 +1,6 @@
 {
     "name": "crank",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "tool to update version number and changelog, for npm module development",
     "author": "Andrew Folta <drew@folta.net>",
     "homepage": "https://github.com/yahoo/node-crank",
