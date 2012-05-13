@@ -1,4 +1,12 @@
 
+version 0.0.8 / Sun May 13 2012 15:49:21
+=======================================================
+change 7607946e354b7ff0155c9e1a05666e591ac947af
+
+* honor config.target
+* config.changelog.file should be relative to config.target
+
+
 version 0.0.7 / Sat May 12 2012 07:45:59
 =======================================================
 change 9b325e55fe50bd89d1c077f7cf244d65009d1764
